@@ -829,7 +829,11 @@ Then open your browser and navigate to `http://<EC2_PUBLIC_IP>` — your Magento
      width="800"
      style="max-width:100%; height:auto;">
 
-<img src="" />
+---
+
+<img src="https://raw.githubusercontent.com/DevMadhup/Magento/main/IMG_20260612_122419.jpg"
+     alt="Magento Image"
+     style="max-width:100%; height:auto;">
 
 ---
 
