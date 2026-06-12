@@ -824,6 +824,10 @@ curl -I http://<EC2_PUBLIC_IP>/static/frontend/Magento/luma/en_US/css/styles-m.c
 
 Then open your browser and navigate to `http://<EC2_PUBLIC_IP>` — your Magento storefront should be live.
 
+<img src="" />
+
+<img src="" />
+
 ---
 
 *Document generated from AWS Magento DevOps deployment session.*
