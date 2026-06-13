@@ -1,0 +1,130 @@
+services:
+
+  php:
+    build:
+      context: ./docker/php
+    container_name: php
+    restart: unless-stopped
+
+    volumes:
+      - ./app:/var/www/html
+
+    networks:
+      - magento
+
+  cron:
+    build:
+      context: ./docker/cron
+    container_name: cron
+    restart: unless-stopped
+
+    depends_on:
+      - php
+
+    volumes:
+      - ./app:/var/www/html
+
+    networks:
+      - magento
+
+  nginx:
+    image: nginx:alpine
+    container_name: nginx
+    restart: unless-stopped
+
+    depends_on:
+      - php
+
+    ports:
+      - "80:80"
+
+    volumes:
+      - ./app:/var/www/html
+      - ./nginx/default.conf:/etc/nginx/conf.d/default.conf
+
+    networks:
+      - magento
+
+  mysql:
+    image: mysql:8.0
+    container_name: mysql
+    restart: unless-stopped
+
+    env_file:
+      - .env
+
+    command:
+      - --default-authentication-plugin=mysql_native_password
+      - --log-bin-trust-function-creators=1
+
+    volumes:
+      - mysql_data:/var/lib/mysql
+      - ./mysql/my.cnf:/etc/mysql/conf.d/my.cnf
+
+    networks:
+      - magento
+
+  redis:
+    image: redis:7
+    container_name: redis
+    restart: unless-stopped
+
+    command:
+      - redis-server
+      - --appendonly
+      - "yes"
+
+    volumes:
+      - redis_data:/data
+
+    networks:
+      - magento
+
+  opensearch:
+    image: opensearchproject/opensearch:2.11.1
+    container_name: opensearch
+    restart: unless-stopped
+
+    environment:
+      discovery.type: single-node
+      bootstrap.memory_lock: "true"
+      OPENSEARCH_JAVA_OPTS: "-Xms512m -Xmx512m"
+      DISABLE_SECURITY_PLUGIN: "true"
+
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+
+    volumes:
+      - opensearch_data:/usr/share/opensearch/data
+
+    networks:
+      - magento
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    container_name: phpmyadmin
+    restart: unless-stopped
+
+    depends_on:
+      - mysql
+
+    environment:
+      PMA_HOST: mysql
+      PMA_PORT: 3306
+
+    ports:
+      - "8080:80"
+
+    networks:
+      - magento
+
+volumes:
+  mysql_data:
+  redis_data:
+  opensearch_data:
+
+networks:
+  magento:
+    driver: bridge

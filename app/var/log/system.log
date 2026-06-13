@@ -1,0 +1,334 @@
+[2026-06-11T18:22:01.831719+00:00] main.ERROR: There are no commands defined in the "cron" namespace.
+#0 /var/www/html/vendor/symfony/console/Application.php(729): Symfony\Component\Console\Application->findNamespace('cron')
+#1 /var/www/html/vendor/symfony/console/Application.php(266): Symfony\Component\Console\Application->find('cron:run')
+#2 /var/www/html/vendor/magento/framework/Console/Cli.php(122): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 /var/www/html/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 /var/www/html/bin/magento(23): Symfony\Component\Console\Application->run()
+#5 {main} [] []
+[2026-06-11T18:22:35.233163+00:00] main.INFO: Source table payment_services_order_status_data_production_submitted_hash does not exist. Skipping data migration... [] []
+[2026-06-11T18:23:39.835259+00:00] main.ERROR: Could not validate a connection to the OpenSearch. No alive nodes found in your cluster
+#0 /var/www/html/setup/src/Magento/Setup/Model/SearchConfig.php(69): Magento\Setup\Model\SearchConfig->validateSearchEngine()
+#1 /var/www/html/setup/src/Magento/Setup/Model/Installer.php(1261): Magento\Setup\Model\SearchConfig->saveConfiguration(Array)
+#2 [internal function]: Magento\Setup\Model\Installer->installSearchConfiguration(Array)
+#3 /var/www/html/setup/src/Magento/Setup/Model/Installer.php(422): call_user_func_array(Array, Array)
+#4 /var/www/html/setup/src/Magento/Setup/Console/Command/InstallCommand.php(239): Magento\Setup\Model\Installer->install(Array)
+#5 /var/www/html/vendor/symfony/console/Command/Command.php(326): Magento\Setup\Console\Command\InstallCommand->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 /var/www/html/vendor/symfony/console/Application.php(1098): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 /var/www/html/vendor/symfony/console/Application.php(324): Symfony\Component\Console\Application->doRunCommand(Object(Magento\Setup\Console\Command\InstallCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 /var/www/html/vendor/magento/framework/Console/Cli.php(122): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 /var/www/html/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 /var/www/html/bin/magento(23): Symfony\Component\Console\Application->run()
+#11 {main} [] []
+[2026-06-11T18:23:50.557000+00:00] main.ERROR: There are no commands defined in the "cron" namespace.
+#0 /var/www/html/vendor/symfony/console/Application.php(729): Symfony\Component\Console\Application->findNamespace('cron')
+#1 /var/www/html/vendor/symfony/console/Application.php(266): Symfony\Component\Console\Application->find('cron:run')
+#2 /var/www/html/vendor/magento/framework/Console/Cli.php(122): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 /var/www/html/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 /var/www/html/bin/magento(23): Symfony\Component\Console\Application->run()
+#5 {main} [] []
+[2026-06-11T18:24:59.574635+00:00] main.ERROR: There are no commands defined in the "cron" namespace.
+#0 /var/www/html/vendor/symfony/console/Application.php(729): Symfony\Component\Console\Application->findNamespace('cron')
+#1 /var/www/html/vendor/symfony/console/Application.php(266): Symfony\Component\Console\Application->find('cron:run')
+#2 /var/www/html/vendor/magento/framework/Console/Cli.php(122): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 /var/www/html/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 /var/www/html/bin/magento(23): Symfony\Component\Console\Application->run()
+#5 {main} [] []
+[2026-06-11T18:26:54.152806+00:00] main.ERROR: There are no commands defined in the "cron" namespace.
+#0 /var/www/html/vendor/symfony/console/Application.php(729): Symfony\Component\Console\Application->findNamespace('cron')
+#1 /var/www/html/vendor/symfony/console/Application.php(266): Symfony\Component\Console\Application->find('cron:run')
+#2 /var/www/html/vendor/magento/framework/Console/Cli.php(122): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 /var/www/html/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 /var/www/html/bin/magento(23): Symfony\Component\Console\Application->run()
+#5 {main} [] []
+[2026-06-11T18:27:17.757639+00:00] main.ERROR: Could not validate a connection to the OpenSearch. No alive nodes found in your cluster
+#0 /var/www/html/setup/src/Magento/Setup/Model/SearchConfig.php(69): Magento\Setup\Model\SearchConfig->validateSearchEngine()
+#1 /var/www/html/setup/src/Magento/Setup/Model/Installer.php(1261): Magento\Setup\Model\SearchConfig->saveConfiguration(Array)
+#2 [internal function]: Magento\Setup\Model\Installer->installSearchConfiguration(Array)
+#3 /var/www/html/setup/src/Magento/Setup/Model/Installer.php(422): call_user_func_array(Array, Array)
+#4 /var/www/html/setup/src/Magento/Setup/Console/Command/InstallCommand.php(239): Magento\Setup\Model\Installer->install(Array)
+#5 /var/www/html/vendor/symfony/console/Command/Command.php(326): Magento\Setup\Console\Command\InstallCommand->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 /var/www/html/vendor/symfony/console/Application.php(1098): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 /var/www/html/vendor/symfony/console/Application.php(324): Symfony\Component\Console\Application->doRunCommand(Object(Magento\Setup\Console\Command\InstallCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 /var/www/html/vendor/magento/framework/Console/Cli.php(122): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 /var/www/html/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 /var/www/html/bin/magento(23): Symfony\Component\Console\Application->run()
+#11 {main} [] []
+[2026-06-11T18:28:01.965068+00:00] main.ERROR: There are no commands defined in the "cron" namespace.
+#0 /var/www/html/vendor/symfony/console/Application.php(729): Symfony\Component\Console\Application->findNamespace('cron')
+#1 /var/www/html/vendor/symfony/console/Application.php(266): Symfony\Component\Console\Application->find('cron:run')
+#2 /var/www/html/vendor/magento/framework/Console/Cli.php(122): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 /var/www/html/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 /var/www/html/bin/magento(23): Symfony\Component\Console\Application->run()
+#5 {main} [] []
+[2026-06-11T18:29:08.502578+00:00] main.ERROR: There are no commands defined in the "cron" namespace.
+#0 /var/www/html/vendor/symfony/console/Application.php(729): Symfony\Component\Console\Application->findNamespace('cron')
+#1 /var/www/html/vendor/symfony/console/Application.php(266): Symfony\Component\Console\Application->find('cron:run')
+#2 /var/www/html/vendor/magento/framework/Console/Cli.php(122): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 /var/www/html/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 /var/www/html/bin/magento(23): Symfony\Component\Console\Application->run()
+#5 {main} [] []
+[2026-06-11T18:33:06.071957+00:00] main.ERROR: There are no commands defined in the "cron" namespace.
+#0 /var/www/html/vendor/symfony/console/Application.php(729): Symfony\Component\Console\Application->findNamespace('cron')
+#1 /var/www/html/vendor/symfony/console/Application.php(266): Symfony\Component\Console\Application->find('cron:run')
+#2 /var/www/html/vendor/magento/framework/Console/Cli.php(122): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 /var/www/html/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 /var/www/html/bin/magento(23): Symfony\Component\Console\Application->run()
+#5 {main} [] []
+[2026-06-11T18:35:24.805352+00:00] main.ERROR: There are no commands defined in the "cron" namespace.
+#0 /var/www/html/vendor/symfony/console/Application.php(729): Symfony\Component\Console\Application->findNamespace('cron')
+#1 /var/www/html/vendor/symfony/console/Application.php(266): Symfony\Component\Console\Application->find('cron:run')
+#2 /var/www/html/vendor/magento/framework/Console/Cli.php(122): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 /var/www/html/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 /var/www/html/bin/magento(23): Symfony\Component\Console\Application->run()
+#5 {main} [] []
+[2026-06-11T18:36:43.710768+00:00] main.ERROR: There are no commands defined in the "cron" namespace.
+#0 /var/www/html/vendor/symfony/console/Application.php(729): Symfony\Component\Console\Application->findNamespace('cron')
+#1 /var/www/html/vendor/symfony/console/Application.php(266): Symfony\Component\Console\Application->find('cron:run')
+#2 /var/www/html/vendor/magento/framework/Console/Cli.php(122): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 /var/www/html/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 /var/www/html/bin/magento(23): Symfony\Component\Console\Application->run()
+#5 {main} [] []
+[2026-06-11T18:37:54.822870+00:00] main.ERROR: There are no commands defined in the "cron" namespace.
+#0 /var/www/html/vendor/symfony/console/Application.php(729): Symfony\Component\Console\Application->findNamespace('cron')
+#1 /var/www/html/vendor/symfony/console/Application.php(266): Symfony\Component\Console\Application->find('cron:run')
+#2 /var/www/html/vendor/magento/framework/Console/Cli.php(122): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 /var/www/html/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 /var/www/html/bin/magento(23): Symfony\Component\Console\Application->run()
+#5 {main} [] []
+[2026-06-11T18:39:03.602284+00:00] main.ERROR: There are no commands defined in the "cron" namespace.
+#0 /var/www/html/vendor/symfony/console/Application.php(729): Symfony\Component\Console\Application->findNamespace('cron')
+#1 /var/www/html/vendor/symfony/console/Application.php(266): Symfony\Component\Console\Application->find('cron:run')
+#2 /var/www/html/vendor/magento/framework/Console/Cli.php(122): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 /var/www/html/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 /var/www/html/bin/magento(23): Symfony\Component\Console\Application->run()
+#5 {main} [] []
+[2026-06-11T18:40:10.451205+00:00] main.ERROR: There are no commands defined in the "cron" namespace.
+#0 /var/www/html/vendor/symfony/console/Application.php(729): Symfony\Component\Console\Application->findNamespace('cron')
+#1 /var/www/html/vendor/symfony/console/Application.php(266): Symfony\Component\Console\Application->find('cron:run')
+#2 /var/www/html/vendor/magento/framework/Console/Cli.php(122): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 /var/www/html/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 /var/www/html/bin/magento(23): Symfony\Component\Console\Application->run()
+#5 {main} [] []
+[2026-06-11T18:41:17.338656+00:00] main.ERROR: There are no commands defined in the "cron" namespace.
+#0 /var/www/html/vendor/symfony/console/Application.php(729): Symfony\Component\Console\Application->findNamespace('cron')
+#1 /var/www/html/vendor/symfony/console/Application.php(266): Symfony\Component\Console\Application->find('cron:run')
+#2 /var/www/html/vendor/magento/framework/Console/Cli.php(122): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 /var/www/html/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 /var/www/html/bin/magento(23): Symfony\Component\Console\Application->run()
+#5 {main} [] []
+[2026-06-11T18:42:26.536418+00:00] main.ERROR: There are no commands defined in the "cron" namespace.
+#0 /var/www/html/vendor/symfony/console/Application.php(729): Symfony\Component\Console\Application->findNamespace('cron')
+#1 /var/www/html/vendor/symfony/console/Application.php(266): Symfony\Component\Console\Application->find('cron:run')
+#2 /var/www/html/vendor/magento/framework/Console/Cli.php(122): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 /var/www/html/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 /var/www/html/bin/magento(23): Symfony\Component\Console\Application->run()
+#5 {main} [] []
+[2026-06-11T18:43:24.810396+00:00] main.INFO: Source table payment_services_order_status_data_production_submitted_hash does not exist. Skipping data migration... [] []
+[2026-06-11T18:43:47.919741+00:00] main.ERROR: There are no commands defined in the "cron" namespace.
+#0 /var/www/html/vendor/symfony/console/Application.php(729): Symfony\Component\Console\Application->findNamespace('cron')
+#1 /var/www/html/vendor/symfony/console/Application.php(266): Symfony\Component\Console\Application->find('cron:run')
+#2 /var/www/html/vendor/magento/framework/Console/Cli.php(122): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 /var/www/html/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 /var/www/html/bin/magento(23): Symfony\Component\Console\Application->run()
+#5 {main} [] []
+[2026-06-11T18:44:03.751053+00:00] main.ERROR: Could not validate a connection to the OpenSearch. No alive nodes found in your cluster
+#0 /var/www/html/setup/src/Magento/Setup/Model/SearchConfig.php(69): Magento\Setup\Model\SearchConfig->validateSearchEngine()
+#1 /var/www/html/setup/src/Magento/Setup/Model/Installer.php(1261): Magento\Setup\Model\SearchConfig->saveConfiguration(Array)
+#2 [internal function]: Magento\Setup\Model\Installer->installSearchConfiguration(Array)
+#3 /var/www/html/setup/src/Magento/Setup/Model/Installer.php(422): call_user_func_array(Array, Array)
+#4 /var/www/html/setup/src/Magento/Setup/Console/Command/InstallCommand.php(239): Magento\Setup\Model\Installer->install(Array)
+#5 /var/www/html/vendor/symfony/console/Command/Command.php(326): Magento\Setup\Console\Command\InstallCommand->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 /var/www/html/vendor/symfony/console/Application.php(1098): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 /var/www/html/vendor/symfony/console/Application.php(324): Symfony\Component\Console\Application->doRunCommand(Object(Magento\Setup\Console\Command\InstallCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 /var/www/html/vendor/magento/framework/Console/Cli.php(122): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 /var/www/html/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 /var/www/html/bin/magento(23): Symfony\Component\Console\Application->run()
+#11 {main} [] []
+[2026-06-11T18:44:57.017965+00:00] main.ERROR: There are no commands defined in the "cron" namespace.
+#0 /var/www/html/vendor/symfony/console/Application.php(729): Symfony\Component\Console\Application->findNamespace('cron')
+#1 /var/www/html/vendor/symfony/console/Application.php(266): Symfony\Component\Console\Application->find('cron:run')
+#2 /var/www/html/vendor/magento/framework/Console/Cli.php(122): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 /var/www/html/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 /var/www/html/bin/magento(23): Symfony\Component\Console\Application->run()
+#5 {main} [] []
+[2026-06-11T18:46:03.551997+00:00] main.ERROR: There are no commands defined in the "cron" namespace.
+#0 /var/www/html/vendor/symfony/console/Application.php(729): Symfony\Component\Console\Application->findNamespace('cron')
+#1 /var/www/html/vendor/symfony/console/Application.php(266): Symfony\Component\Console\Application->find('cron:run')
+#2 /var/www/html/vendor/magento/framework/Console/Cli.php(122): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 /var/www/html/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 /var/www/html/bin/magento(23): Symfony\Component\Console\Application->run()
+#5 {main} [] []
+[2026-06-11T18:47:42.713532+00:00] main.ERROR: There are no commands defined in the "cron" namespace.
+#0 /var/www/html/vendor/symfony/console/Application.php(729): Symfony\Component\Console\Application->findNamespace('cron')
+#1 /var/www/html/vendor/symfony/console/Application.php(266): Symfony\Component\Console\Application->find('cron:run')
+#2 /var/www/html/vendor/magento/framework/Console/Cli.php(122): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 /var/www/html/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 /var/www/html/bin/magento(23): Symfony\Component\Console\Application->run()
+#5 {main} [] []
+[2026-06-11T18:51:46.629677+00:00] main.ERROR: There are no commands defined in the "cron" namespace.
+#0 /var/www/html/vendor/symfony/console/Application.php(729): Symfony\Component\Console\Application->findNamespace('cron')
+#1 /var/www/html/vendor/symfony/console/Application.php(266): Symfony\Component\Console\Application->find('cron:run')
+#2 /var/www/html/vendor/magento/framework/Console/Cli.php(122): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 /var/www/html/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 /var/www/html/bin/magento(23): Symfony\Component\Console\Application->run()
+#5 {main} [] []
+[2026-06-11T18:54:13.832960+00:00] main.ERROR: There are no commands defined in the "cron" namespace.
+#0 /var/www/html/vendor/symfony/console/Application.php(729): Symfony\Component\Console\Application->findNamespace('cron')
+#1 /var/www/html/vendor/symfony/console/Application.php(266): Symfony\Component\Console\Application->find('cron:run')
+#2 /var/www/html/vendor/magento/framework/Console/Cli.php(122): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 /var/www/html/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 /var/www/html/bin/magento(23): Symfony\Component\Console\Application->run()
+#5 {main} [] []
+[2026-06-11T18:55:57.508881+00:00] main.ERROR: There are no commands defined in the "cron" namespace.
+#0 /var/www/html/vendor/symfony/console/Application.php(729): Symfony\Component\Console\Application->findNamespace('cron')
+#1 /var/www/html/vendor/symfony/console/Application.php(266): Symfony\Component\Console\Application->find('cron:run')
+#2 /var/www/html/vendor/magento/framework/Console/Cli.php(122): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 /var/www/html/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 /var/www/html/bin/magento(23): Symfony\Component\Console\Application->run()
+#5 {main} [] []
+[2026-06-11T18:57:06.593874+00:00] main.ERROR: There are no commands defined in the "cron" namespace.
+#0 /var/www/html/vendor/symfony/console/Application.php(729): Symfony\Component\Console\Application->findNamespace('cron')
+#1 /var/www/html/vendor/symfony/console/Application.php(266): Symfony\Component\Console\Application->find('cron:run')
+#2 /var/www/html/vendor/magento/framework/Console/Cli.php(122): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 /var/www/html/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 /var/www/html/bin/magento(23): Symfony\Component\Console\Application->run()
+#5 {main} [] []
+[2026-06-11T18:58:13.553828+00:00] main.ERROR: There are no commands defined in the "cron" namespace.
+#0 /var/www/html/vendor/symfony/console/Application.php(729): Symfony\Component\Console\Application->findNamespace('cron')
+#1 /var/www/html/vendor/symfony/console/Application.php(266): Symfony\Component\Console\Application->find('cron:run')
+#2 /var/www/html/vendor/magento/framework/Console/Cli.php(122): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 /var/www/html/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 /var/www/html/bin/magento(23): Symfony\Component\Console\Application->run()
+#5 {main} [] []
+[2026-06-11T19:00:05.350902+00:00] main.ERROR: There are no commands defined in the "cron" namespace.
+#0 /var/www/html/vendor/symfony/console/Application.php(729): Symfony\Component\Console\Application->findNamespace('cron')
+#1 /var/www/html/vendor/symfony/console/Application.php(266): Symfony\Component\Console\Application->find('cron:run')
+#2 /var/www/html/vendor/magento/framework/Console/Cli.php(122): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 /var/www/html/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 /var/www/html/bin/magento(23): Symfony\Component\Console\Application->run()
+#5 {main} [] []
+[2026-06-11T19:00:23.197086+00:00] main.INFO: Source table payment_services_order_status_data_production_submitted_hash does not exist. Skipping data migration... [] []
+[2026-06-11T19:02:05.903702+00:00] main.ERROR: There are no commands defined in the "cron" namespace.
+#0 /var/www/html/vendor/symfony/console/Application.php(729): Symfony\Component\Console\Application->findNamespace('cron')
+#1 /var/www/html/vendor/symfony/console/Application.php(266): Symfony\Component\Console\Application->find('cron:run')
+#2 /var/www/html/vendor/magento/framework/Console/Cli.php(122): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 /var/www/html/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 /var/www/html/bin/magento(23): Symfony\Component\Console\Application->run()
+#5 {main} [] []
+[2026-06-11T19:07:25.248473+00:00] main.ERROR: SQLSTATE[HY000] [2002] Connection refused
+#0 /var/www/html/vendor/magento/zend-db/library/Zend/Db/Adapter/Pdo/Mysql.php(111): Zend_Db_Adapter_Pdo_Abstract->_connect()
+#1 /var/www/html/vendor/magento/framework/DB/Adapter/Pdo/Mysql.php(512): Zend_Db_Adapter_Pdo_Mysql->_connect()
+#2 /var/www/html/vendor/magento/zend-db/library/Zend/Db/Adapter/Abstract.php(460): Magento\Framework\DB\Adapter\Pdo\Mysql->_connect()
+#3 /var/www/html/vendor/magento/zend-db/library/Zend/Db/Adapter/Pdo/Abstract.php(242): Zend_Db_Adapter_Abstract->query('SELECT `store_w...', Array)
+#4 /var/www/html/vendor/magento/framework/DB/Adapter/Pdo/Mysql.php(641): Zend_Db_Adapter_Pdo_Abstract->query('SELECT `store_w...', Array)
+#5 /var/www/html/vendor/magento/framework/DB/Adapter/Pdo/Mysql.php(667): Magento\Framework\DB\Adapter\Pdo\Mysql->Magento\Framework\DB\Adapter\Pdo\{closure}()
+#6 /var/www/html/vendor/magento/framework/DB/Adapter/Pdo/Mysql.php(641): Magento\Framework\DB\Adapter\Pdo\Mysql->performQuery(Object(Closure))
+#7 /var/www/html/vendor/magento/framework/DB/Adapter/Pdo/Mysql.php(731): Magento\Framework\DB\Adapter\Pdo\Mysql->_query('SELECT `store_w...', Array)
+#8 /var/www/html/generated/code/Magento/Framework/DB/Adapter/Pdo/Mysql/Interceptor.php(95): Magento\Framework\DB\Adapter\Pdo\Mysql->query(Object(Magento\Framework\DB\Select), Array)
+#9 /var/www/html/vendor/magento/zend-db/library/Zend/Db/Adapter/Abstract.php(737): Magento\Framework\DB\Adapter\Pdo\Mysql\Interceptor->query(Object(Magento\Framework\DB\Select), Array)
+#10 /var/www/html/generated/code/Magento/Framework/DB/Adapter/Pdo/Mysql/Interceptor.php(1094): Zend_Db_Adapter_Abstract->fetchAll(Object(Magento\Framework\DB\Select), Array, 2)
+#11 /var/www/html/vendor/magento/module-store/App/Config/Source/RuntimeConfigSource.php(100): Magento\Framework\DB\Adapter\Pdo\Mysql\Interceptor->fetchAll(Object(Magento\Framework\DB\Select))
+#12 /var/www/html/vendor/magento/module-store/App/Config/Source/RuntimeConfigSource.php(61): Magento\Store\App\Config\Source\RuntimeConfigSource->getEntities('store_website', 'code')
+#13 /var/www/html/vendor/magento/framework/App/Config/ConfigSourceAggregated.php(42): Magento\Store\App\Config\Source\RuntimeConfigSource->get('')
+#14 /var/www/html/generated/code/Magento/Framework/App/Config/ConfigSourceAggregated/Proxy.php(105): Magento\Framework\App\Config\ConfigSourceAggregated->get('')
+#15 /var/www/html/vendor/magento/module-store/App/Config/Type/Scopes.php(63): Magento\Framework\App\Config\ConfigSourceAggregated\Proxy->get()
+#16 /var/www/html/vendor/magento/framework/App/Config.php(121): Magento\Store\App\Config\Type\Scopes->get('stores/0')
+#17 /var/www/html/vendor/magento/module-store/Model/StoreRepository.php(106): Magento\Framework\App\Config->get('scopes', 'stores/0', Array)
+#18 /var/www/html/vendor/magento/module-store/Model/StoreRepository.php(127): Magento\Store\Model\StoreRepository->getById('0')
+#19 /var/www/html/vendor/magento/module-store/Model/StoreResolver.php(181): Magento\Store\Model\StoreRepository->getActiveStoreById('0')
+#20 /var/www/html/vendor/magento/module-store/Model/StoreResolver.php(126): Magento\Store\Model\StoreResolver->getDefaultStoreById('0')
+#21 /var/www/html/generated/code/Magento/Store/Model/StoreResolver/Proxy.php(105): Magento\Store\Model\StoreResolver->getCurrentStoreId()
+#22 /var/www/html/vendor/magento/module-store/Model/StoreManager.php(159): Magento\Store\Model\StoreResolver\Proxy->getCurrentStoreId()
+#23 /var/www/html/generated/code/Magento/Store/Model/StoreManagerInterface/Proxy.php(129): Magento\Store\Model\StoreManager->getStore(NULL)
+#24 /var/www/html/vendor/magento/module-store/Model/Resolver/Store.php(30): Magento\Store\Model\StoreManagerInterface\Proxy->getStore(NULL)
+#25 /var/www/html/vendor/magento/framework/App/Config/ScopeCodeResolver.php(49): Magento\Store\Model\Resolver\Store->getScope(NULL)
+#26 /var/www/html/vendor/magento/framework/App/Config.php(63): Magento\Framework\App\Config\ScopeCodeResolver->resolve('stores', NULL)
+#27 /var/www/html/vendor/magento/framework/Locale/Resolver.php(110): Magento\Framework\App\Config->getValue('general/locale/...', 'stores')
+#28 /var/www/html/vendor/magento/framework/Locale/Resolver.php(128): Magento\Framework\Locale\Resolver->getDefaultLocale()
+#29 /var/www/html/vendor/magento/framework/Locale/Resolver.php(82): Magento\Framework\Locale\Resolver->setLocale(NULL)
+#30 /var/www/html/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(121): Magento\Framework\Locale\Resolver->__construct(Object(Magento\Framework\App\Config), 'general/locale/...', 'store', NULL, NULL)
+#31 /var/www/html/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(66): Magento\Framework\ObjectManager\Factory\AbstractFactory->createObject('Magento\\Framewo...', Array)
+#32 /var/www/html/vendor/magento/framework/ObjectManager/ObjectManager.php(73): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->create('Magento\\Framewo...')
+#33 /var/www/html/generated/code/Magento/Framework/Locale/Resolver/Proxy.php(94): Magento\Framework\ObjectManager\ObjectManager->get('Magento\\Framewo...')
+#34 /var/www/html/generated/code/Magento/Framework/Locale/Resolver/Proxy.php(137): Magento\Framework\Locale\Resolver\Proxy->_getSubject()
+#35 /var/www/html/vendor/magento/framework/Translate.php(514): Magento\Framework\Locale\Resolver\Proxy->getLocale()
+#36 /var/www/html/vendor/magento/framework/Translate.php(239): Magento\Framework\Translate->getLocale()
+#37 /var/www/html/vendor/magento/framework/Translate.php(203): Magento\Framework\Translate->setConfig(Array)
+#38 /var/www/html/vendor/magento/framework/App/Area.php(244): Magento\Framework\Translate->loadData('crontab', false)
+#39 /var/www/html/vendor/magento/framework/App/Area.php(215): Magento\Framework\App\Area->_initTranslate()
+#40 /var/www/html/vendor/magento/framework/App/Area.php(140): Magento\Framework\App\Area->_loadPart('translate')
+#41 /var/www/html/vendor/magento/framework/App/Cron.php(82): Magento\Framework\App\Area->load('translate')
+#42 /var/www/html/vendor/magento/framework/Interception/Interceptor.php(58): Magento\Framework\App\Cron->launch()
+#43 /var/www/html/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Framework\App\Cron\Interceptor->___callParent('launch', Array)
+#44 /var/www/html/vendor/magento/module-application-performance-monitor/Plugin/ApplicationPerformanceMonitor.php(38): Magento\Framework\App\Cron\Interceptor->Magento\Framework\Interception\{closure}()
+#45 /var/www/html/vendor/magento/framework/Interception/Interceptor.php(135): Magento\ApplicationPerformanceMonitor\Plugin\ApplicationPerformanceMonitor->aroundLaunch(Object(Magento\Framework\App\Cron\Interceptor), Object(Closure))
+#46 /var/www/html/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\App\Cron\Interceptor->Magento\Framework\Interception\{closure}()
+#47 /var/www/html/generated/code/Magento/Framework/App/Cron/Interceptor.php(23): Magento\Framework\App\Cron\Interceptor->___callPlugins('launch', Array, NULL)
+#48 /var/www/html/vendor/magento/module-cron/Console/Command/CronCommand.php(142): Magento\Framework\App\Cron\Interceptor->launch()
+#49 /var/www/html/vendor/symfony/console/Command/Command.php(326): Magento\Cron\Console\Command\CronCommand->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#50 /var/www/html/vendor/magento/framework/Interception/Interceptor.php(58): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#51 /var/www/html/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Cron\Console\Command\CronCommand\Interceptor->___callParent('run', Array)
+#52 /var/www/html/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Cron\Console\Command\CronCommand\Interceptor->Magento\Framework\Interception\{closure}(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#53 /var/www/html/generated/code/Magento/Cron/Console/Command/CronCommand/Interceptor.php(77): Magento\Cron\Console\Command\CronCommand\Interceptor->___callPlugins('run', Array, Array)
+#54 /var/www/html/vendor/symfony/console/Application.php(1098): Magento\Cron\Console\Command\CronCommand\Interceptor->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#55 /var/www/html/vendor/symfony/console/Application.php(324): Symfony\Component\Console\Application->doRunCommand(Object(Magento\Cron\Console\Command\CronCommand\Interceptor), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#56 /var/www/html/vendor/magento/framework/Console/Cli.php(122): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#57 /var/www/html/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#58 /var/www/html/bin/magento(23): Symfony\Component\Console\Application->run()
+#59 {main} [] []
+[2026-06-11T19:18:42.165963+00:00] main.ERROR: The "config.php" deployment config file isn't writable.
+#0 /var/www/html/vendor/magento/framework/Module/Status.php(154): Magento\Framework\App\DeploymentConfig\Writer->saveConfig(Array, true)
+#1 /var/www/html/setup/src/Magento/Setup/Console/Command/AbstractModuleManageCommand.php(128): Magento\Framework\Module\Status->setIsEnabled(false, Array)
+#2 /var/www/html/setup/src/Magento/Setup/Console/Command/AbstractModuleManageCommand.php(103): Magento\Setup\Console\Command\AbstractModuleManageCommand->setIsEnabled(false, Array, Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 /var/www/html/vendor/symfony/console/Command/Command.php(326): Magento\Setup\Console\Command\AbstractModuleManageCommand->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 /var/www/html/vendor/symfony/console/Application.php(1098): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 /var/www/html/vendor/symfony/console/Application.php(324): Symfony\Component\Console\Application->doRunCommand(Object(Magento\Setup\Console\Command\ModuleDisableCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 /var/www/html/vendor/magento/framework/Console/Cli.php(122): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 /var/www/html/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 /var/www/html/bin/magento(23): Symfony\Component\Console\Application->run()
+#9 {main} [] []
+[2026-06-11T20:00:35.774739+00:00] main.INFO: Request token 3zo4egy3x4ghfr2hayupjx54y1m8h55l was exchanged to obtain access token for consumer 1 [] []
+[2026-06-11T20:00:40.205066+00:00] main.WARNING: Subscription for MBI service has been failed. An error occurred during token exchange: {"message":"We are unable to connect to your store."}. Content-Type: application/json; charset=UTF-8 [] []
+[2026-06-11T21:00:42.612256+00:00] main.WARNING: Subscription for MBI service has been failed. An error occurred during token exchange: {"message":"We are unable to connect to your store."}. Content-Type: application/json; charset=UTF-8 [] []
+[2026-06-11T22:00:41.667668+00:00] main.WARNING: Subscription for MBI service has been failed. An error occurred during token exchange: {"message":"We are unable to connect to your store."}. Content-Type: application/json; charset=UTF-8 [] []
+[2026-06-11T23:00:45.739158+00:00] main.WARNING: Subscription for MBI service has been failed. An error occurred during token exchange: {"message":"We are unable to connect to your store."}. Content-Type: application/json; charset=UTF-8 [] []
+[2026-06-12T00:00:43.052700+00:00] main.WARNING: Subscription for MBI service has been failed. An error occurred during token exchange: {"message":"We are unable to connect to your store."}. Content-Type: application/json; charset=UTF-8 [] []
+[2026-06-12T01:00:47.879913+00:00] main.WARNING: Subscription for MBI service has been failed. An error occurred during token exchange: {"message":"We are unable to connect to your store."}. Content-Type: application/json; charset=UTF-8 [] []
+[2026-06-12T02:00:03.965165+00:00] main.WARNING: Subscription for MBI service has been failed. An error occurred during token exchange: {"message":"Too many requests"}. Content-Type:  [] []
+[2026-06-12T03:00:09.875977+00:00] main.WARNING: Subscription for MBI service has been failed. An error occurred during token exchange: {"message":"We are unable to connect to your store."}. Content-Type: application/json; charset=UTF-8 [] []
+[2026-06-12T04:00:14.699405+00:00] main.WARNING: Subscription for MBI service has been failed. An error occurred during token exchange: {"message":"We are unable to connect to your store."}. Content-Type: application/json; charset=UTF-8 [] []
+[2026-06-12T05:00:14.501834+00:00] main.WARNING: Subscription for MBI service has been failed. An error occurred during token exchange: {"message":"We are unable to connect to your store."}. Content-Type: application/json; charset=UTF-8 [] []
+[2026-06-12T06:00:11.609271+00:00] main.WARNING: Subscription for MBI service has been failed. An error occurred during token exchange: {"message":"We are unable to connect to your store."}. Content-Type: application/json; charset=UTF-8 [] []
+[2026-06-12T07:00:11.544251+00:00] main.WARNING: Subscription for MBI service has been failed. An error occurred during token exchange: {"message":"Too many requests"}. Content-Type:  [] []
+[2026-06-12T08:00:03.219453+00:00] main.WARNING: Subscription for MBI service has been failed. An error occurred during token exchange: {"message":"Too many requests"}. Content-Type:  [] []
+[2026-06-12T09:01:04.362443+00:00] main.WARNING: Subscription for MBI service has been failed. An error occurred during token exchange: {"message":"We are unable to connect to your store."}. Content-Type: application/json; charset=UTF-8 [] []
+[2026-06-12T10:01:00.524910+00:00] main.WARNING: Subscription for MBI service has been failed. An error occurred during token exchange: {"message":"We are unable to connect to your store."}. Content-Type: application/json; charset=UTF-8 [] []
+[2026-06-12T10:08:56.707353+00:00] main.ERROR: Requested path 'chunks/' is wrong. [] []
+[2026-06-12T10:08:56.715734+00:00] main.CRITICAL: Requested path 'chunks/' is wrong. [] []
+[2026-06-12T10:08:58.525098+00:00] main.ERROR: Requested path 'js/' is wrong. [] []
+[2026-06-12T10:08:58.525266+00:00] main.CRITICAL: Requested path 'js/' is wrong. [] []
+[2026-06-12T10:09:04.077823+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Magento/luma/en_US/requirejs/script' [] []
+[2026-06-12T10:09:04.078046+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Magento/luma/en_US/requirejs/script' [] []
+[2026-06-12T10:09:04.097415+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Magento/luma/en_US/requirejs/main' [] []
+[2026-06-12T10:09:04.097620+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Magento/luma/en_US/requirejs/main' [] []
+[2026-06-12T10:09:04.976177+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Magento/luma/en_US/requirejs/scripterror' [] []
+[2026-06-12T10:09:04.976416+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Magento/luma/en_US/requirejs/scripterror' [] []
+[2026-06-12T11:00:58.591533+00:00] main.WARNING: Subscription for MBI service has been failed. An error occurred during token exchange: {"message":"We are unable to connect to your store."}. Content-Type: application/json; charset=UTF-8 [] []
+[2026-06-12T12:00:54.035596+00:00] main.WARNING: Subscription for MBI service has been failed. An error occurred during token exchange: {"message":"We are unable to connect to your store."}. Content-Type: application/json; charset=UTF-8 [] []
+[2026-06-12T13:01:01.577287+00:00] main.WARNING: Subscription for MBI service has been failed. An error occurred during token exchange: {"message":"Handshake request failed."}. Content-Type: application/json; charset=UTF-8 [] []
+[2026-06-12T14:01:01.336504+00:00] main.WARNING: Subscription for MBI service has been failed. An error occurred during token exchange: {"message":"We are unable to connect to your store."}. Content-Type: application/json; charset=UTF-8 [] []
+[2026-06-12T15:00:54.442215+00:00] main.WARNING: Subscription for MBI service has been failed. An error occurred during token exchange: {"message":"Handshake request failed."}. Content-Type: application/json; charset=UTF-8 [] []
+[2026-06-12T16:00:54.879815+00:00] main.WARNING: Subscription for MBI service has been failed. An error occurred during token exchange: {"message":"We are unable to connect to your store."}. Content-Type: application/json; charset=UTF-8 [] []
+[2026-06-12T17:00:53.233211+00:00] main.WARNING: Subscription for MBI service has been failed. An error occurred during token exchange: {"message":"We are unable to connect to your store."}. Content-Type: application/json; charset=UTF-8 [] []
+[2026-06-12T18:00:46.738501+00:00] main.WARNING: Subscription for MBI service has been failed. An error occurred during token exchange: {"message":"We are unable to connect to your store."}. Content-Type: application/json; charset=UTF-8 [] []
+[2026-06-12T19:00:41.932190+00:00] main.WARNING: Subscription for MBI service has been failed. An error occurred during token exchange: {"message":"Handshake request failed."}. Content-Type: application/json; charset=UTF-8 [] []
+[2026-06-12T23:14:51.208095+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Magento/luma/en_US/js-storage/storage-wrapper' [] []
+[2026-06-12T23:14:51.208209+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Magento/luma/en_US/tooltip' [] []
+[2026-06-12T23:14:51.219389+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Magento/luma/en_US/js-storage/storage-wrapper' [] []
+[2026-06-12T23:14:51.219887+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Magento/luma/en_US/tooltip' [] []
+[2026-06-12T23:14:51.243282+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Magento/luma/en_US/storage_test' [] []
+[2026-06-12T23:14:51.243503+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Magento/luma/en_US/storage_test' [] []
+[2026-06-12T23:14:58.525982+00:00] main.ERROR: Requested path 'chunks' is wrong. [] []
+[2026-06-12T23:14:58.526197+00:00] main.CRITICAL: Requested path 'chunks' is wrong. [] []
+[2026-06-12T23:15:01.853221+00:00] main.ERROR: Requested path 'chunks/' is wrong. [] []
+[2026-06-12T23:15:01.853480+00:00] main.CRITICAL: Requested path 'chunks/' is wrong. [] []

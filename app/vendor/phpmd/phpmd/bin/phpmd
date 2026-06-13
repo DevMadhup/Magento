@@ -1,0 +1,75 @@
+#!/usr/bin/env php
+<?php
+/**
+ * This file is part of PHP Mess Detector.
+ *
+ * Copyright (c) Manuel Pichler <mapi@phpmd.org>.
+ * All rights reserved.
+ *
+ * Licensed under BSD License
+ * For full copyright and license information, please see the LICENSE file.
+ * Redistributions of files must retain the above copyright notice.
+ *
+ * @author Manuel Pichler <mapi@phpmd.org>
+ * @copyright Manuel Pichler. All rights reserved.
+ * @license https://opensource.org/licenses/bsd-license.php BSD License
+ * @link http://phpmd.org/
+ */
+
+use PHPMD\TextUI\Command;
+use PHPMD\TextUI\XdebugOptionHandler;
+use Symfony\Component\Console\Application;
+
+if (file_exists(__DIR__ . '/../../../autoload.php')) {
+    // phpmd is part of a composer installation
+    require_once __DIR__ . '/../../../autoload.php';
+} else {
+    require_once __DIR__ . '/../vendor/autoload.php';
+}
+
+// Check PHP setup for CLI arguments
+if (!isset($_SERVER['argv']) && !isset($argv)) {
+    fwrite(STDERR, 'Please enable the "register_argc_argv" directive in your php.ini' . PHP_EOL);
+    exit(1);
+} elseif (!isset($argv)) {
+    $argv = $_SERVER['argv'];
+}
+
+// Restart if xdebug is loading, unless the environment variable PHPMD_ALLOW_XDEBUG is set.
+$xdebugHandler = new XdebugOptionHandler('PHPMD');
+$xdebugHandler->check();
+unset($xdebugHandler);
+
+if (!ini_get('date.timezone')) {
+    date_default_timezone_set('UTC');
+}
+
+ini_set('memory_limit', -1);
+
+// Compatibility shim for PhpStorm and other tools that use the old CLI interface:
+// phpmd <file> xml <ruleset>
+if (
+    isset($argv[1], $argv[2], $argv[3])
+    && $argv[2] === 'xml'
+    && $argv[1] !== 'analyze'
+    && !str_starts_with($argv[1], '-')
+) {
+    fwrite(STDERR, 'Deprecated: positional arguments are deprecated, use "phpmd analyze <file> --format xml --ruleset <ruleset>" instead.' . PHP_EOL);
+    $rulesets = [];
+    foreach (explode(',', $argv[3]) as $ruleset) {
+        $rulesets[] = '--ruleset';
+        $rulesets[] = $ruleset;
+    }
+    $argv = [$argv[0], 'analyze', $argv[1], '--format', 'xml', '--no-progress', ...$rulesets];
+    $_SERVER['argv'] = $argv;
+}
+$application = new Application('PHPMD', Command::getVersion());
+$command = new Command();
+if (method_exists($application, 'addCommand')) {
+    $application->addCommand($command);
+} else {
+    $application->add($command);
+}
+$application->setDefaultCommand($command->getName());
+// Run command line interface
+$application->run();
