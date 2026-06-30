@@ -3,6 +3,10 @@
 > **Docker-Based Production Setup on EC2 (Debian 12)**  
 > Stack: Magento 2.4.8 · PHP 8.3 · MySQL 8.0 · OpenSearch 2.11 · Redis 7 · Nginx
 
+Flow:
+
+<img src="https://github.com/DevMadhup/Magento/blob/main/ecommerce_request_flow_v2.png?raw=true" width="550" alt="Magento Architecture" />
+
 ---
 
 ## Table of Contents
